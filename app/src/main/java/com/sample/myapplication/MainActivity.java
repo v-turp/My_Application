@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         System.out.println("Hello Lambda");
 
 
-        // master comment check on master
+        // master comment check on master check differences
 
         Comparator<String> comparator2 = (String s1, String s2) -> Integer.compare(s2.length(), s1.length());
         Runnable r = () -> {
