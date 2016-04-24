@@ -47,4 +47,8 @@ public class MainActivity extends AppCompatActivity {
 
             Toast.makeText(this, "This is the new branch: ".concat(branchName) , Toast.LENGTH_LONG).show();
     } // end method printBrachName
+
+    public void builderBranch(){
+        
+    }
 }
