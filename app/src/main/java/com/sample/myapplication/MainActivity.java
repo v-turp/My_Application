@@ -2,6 +2,8 @@ package com.sample.myapplication;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.Toast;
+
 import java.util.function.*;
 import java.util.Comparator;
 
@@ -38,5 +40,11 @@ public class MainActivity extends AppCompatActivity {
         };
 
 //        Consumer<String> printer = s -> System.out.println(s);
-    }
+
+    } // end method init()
+
+    public void printBranchName(String branchName){
+
+            Toast.makeText(this, "This is the new branch: ".concat(branchName) , Toast.LENGTH_LONG).show();
+    } // end method printBrachName
 }
